@@ -19,6 +19,15 @@ weapons: [
         sapStrength: 1.7
         lifetime: 35
         damage: 25
+        shootEffect: shootSmall
+        despawnEffect: none
+        hitColor: bf92f9
+        color: bf92f9
+        hitColor: bf92f9
+        color: bf92f9
+        lightColor: bf92f9
+	    lightOpacity: 0.7
+	    lightRadius: 18
           }
     }
 {
