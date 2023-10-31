@@ -1,5 +1,5 @@
 health: 1100
-speed: 0.45
+speed: 0.6
 weapons: [
     {
     name: spiroct-weapon
