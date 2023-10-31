@@ -32,7 +32,6 @@ weapons: [
     }
 {
     name: mount-purple-weapon
-    rotationLimit: 45
     rotate: true
     x: 4
     y: 3
