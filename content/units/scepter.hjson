@@ -32,7 +32,7 @@ bullet: {
     speed: 7
 
     lightningColor: f3e979
-    lightningDamage: 24
+    lightningDamage: 20
     lightningLength: 6
     lightning: 2
 
