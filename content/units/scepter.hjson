@@ -11,7 +11,7 @@ name: scepter-weapon
     y: 1
     x: 16
 
-    reload: 36
+    reload: 42
 
     ejectEffect: casing3
 
@@ -28,7 +28,7 @@ bullet: {
     width: 11
 
     lifetime: 29
-    damage: 80
+    damage: 70
     speed: 7
 
     lightningColor: f3e979
