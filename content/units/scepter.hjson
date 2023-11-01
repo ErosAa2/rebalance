@@ -28,13 +28,13 @@ bullet: {
     width: 11
 
     lifetime: 29
-    damage: 70
+    damage: 80
     speed: 7
 
     lightningColor: f3e979
-    lightningDamage: 27
+    lightningDamage: 24
     lightningLength: 6
-    lightning: 3
+    lightning: 2
 
     shootEffect: shootBig
 
