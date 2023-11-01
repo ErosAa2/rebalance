@@ -7,7 +7,7 @@ name: scepter-weapon
     shootCone: 45
     shootY: 8
     recoil: 5
-    shake: 19
+    shake: 2
     y: 1
     x: 16
 
