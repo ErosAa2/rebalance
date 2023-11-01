@@ -1,4 +1,4 @@
-health: 9500
+health: 9000
 
 
 weapons: [
@@ -48,8 +48,8 @@ bullet: {
 abilities:[
   {
     type: ShieldRegenFieldAbility
-    amount: 50
+    amount: 25
     max: 500
-    reload: 120
+    reload: 60
   }
 ]
