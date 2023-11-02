@@ -10,7 +10,7 @@ name: scepter-weapon
     shake: 2
     y: 1
     x: 16
-    inaccuracy: 0
+    inaccuracy: 3
     reload: 45
 
     ejectEffect: casing3
