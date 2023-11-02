@@ -29,7 +29,7 @@ bullet: {
 
     lifetime: 29
     damage: 80
-    speed: 7.5
+    speed: 8
 
     lightningColor: f3e979
     lightningDamage: 20
