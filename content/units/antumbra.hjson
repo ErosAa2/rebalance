@@ -20,8 +20,6 @@ bullet: {
     type: BasicBulletType
     height: 15
     width: 9
-    splashDamageRadius: 24.5
-    splashDamage: 17.5
     lifetime: 25
     damage: 70
     speed: 7
@@ -34,6 +32,7 @@ bullet: {
 {
 name: missiles-mount
     rotate: true
+    rotateSpeed: 8
     x: 17
     y: 8
     shadow: 6
@@ -70,6 +69,7 @@ bullet: {
 {
 name: missiles-mount
     rotate: true
+    rotateSpeed: 8
     x: 17
     y: -8
     shadow: 6
