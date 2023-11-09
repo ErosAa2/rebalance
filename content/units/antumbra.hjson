@@ -1,0 +1,108 @@
+speed: 0.78
+health : 8500
+armor: 10
+
+weapons : [
+{
+name: large-bullet-mount
+    rotateSpeed: 2
+    rotate: true
+    shootY: 10
+    shake: 1
+    x: 10
+    y: -3.25
+    shadow: 8
+    reload: 12   
+    ejectEffect: casing1
+    shootSound: shootBig
+    
+bullet: {
+    type: BasicBulletType
+    height: 15
+    width: 9
+    splashDamageRadius: 24.5
+    splashDamage: 17.5
+    lifetime: 25
+    damage: 70
+    speed: 7
+    shootEffect: shootBig
+    lightColor: fff8e8
+	lightOpacity: 0.7
+	lightRadius: 37.5
+ }
+}
+{
+name: missiles-mount
+    rotate: true
+    x: 17
+    y: 8
+    shadow: 6
+    reload: 135
+    shootSound: missile
+shoot: {
+    velocityRnd: 0.2
+    shots: 15
+}
+
+bullet: {
+    type: MissileBulletType
+    keepVelocity: false
+    shrinkY: 0.5
+    drag: -0.003
+    hitShake: 7
+    height: 8
+    width: 8
+
+    splashDamageRadius: 25
+    statusDuration: 60
+    splashDamage: 40
+    homingRange: 60
+    status: blasted
+    weaveScale: 6
+    lifetime: 50
+    weaveMag: 1
+    damage: 20
+    speed: 3
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+}
+}
+{
+name: missiles-mount
+    rotate: true
+    x: 17
+    y: -8
+    shadow: 6
+    reload: 140
+    shootSound: missile
+shoot: {
+    velocityRnd: 0.2
+    shots: 15
+}
+
+bullet: {
+    type: MissileBulletType
+    keepVelocity: false
+    shrinkY: 0.5
+    drag: -0.003
+    hitShake: 7
+    height: 8
+    width: 8
+
+    splashDamageRadius: 25
+    statusDuration: 60
+    splashDamage: 40
+    homingRange: 60
+    status: blasted
+    weaveScale: 6
+    lifetime: 50
+    weaveMag: 1
+    damage: 20
+    speed: 3
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+}
+}
+]
+
+
