@@ -41,8 +41,6 @@ name: missiles-mount
     reload: 190
     shootSound: missile
     shoot: {
-       type:shootSpread
-       spread: 20
        shotDelay: 2
        shots: 15
        velocityRnd: 0.2
@@ -79,8 +77,6 @@ name: missiles-mount
     reload: 215
     shootSound: missile
    shoot: {
-    type: shootSpread
-    spread: 20
     shotDelay: 2
     shots: 15
     velocityRnd: 0.2
