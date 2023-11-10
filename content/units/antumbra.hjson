@@ -36,7 +36,7 @@ name: missiles-mount
     x: 17
     y: 8
     shadow: 6
-  inaccuracy: 6
+  inaccuracy: 10
     shotDelay : 2
     reload: 135
     shootSound: missile
@@ -73,7 +73,7 @@ name: missiles-mount
     y: -8
     shotDelay: 2
     shadow: 6
-  inaccuracy: 6
+  inaccuracy: 10
     reload: 140
     shootSound: missile
 shoot: {
