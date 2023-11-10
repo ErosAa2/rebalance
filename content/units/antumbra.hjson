@@ -34,15 +34,19 @@ name: missiles-mount
     rotate: true
     rotateSpeed: 8
     x: 17
-    y: 8
+    y: -8
+    shotDelay: 2
     shadow: 6
   inaccuracy: 10
-    shotDelay : 2
-    reload: 135
+    reload: 140
     shootSound: missile
-shoot: {
-    velocityRnd: 1
+    velocityRnd: 0,2
+    shoot: {
+    type: "shootPattern"
+    shotDelay: 2
     shots: 15
+    velocityRnd: 0,2
+      }
 }
 
 bullet: {
@@ -76,9 +80,13 @@ name: missiles-mount
   inaccuracy: 10
     reload: 140
     shootSound: missile
-shoot: {
-    velocityRnd: 1
+    velocityRnd: 0,2
+    shoot: {
+    type: "shootPattern"
+    shotDelay: 2
     shots: 15
+    velocityRnd: 0,2
+      }
 }
 
 bullet: {
