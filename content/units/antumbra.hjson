@@ -51,7 +51,6 @@ bullet: {
     keepVelocity: false
     shrinkY: 0.5
     drag: -0.003
-    hitShake: 7
     height: 8
     width: 8
     splashDamageRadius: 25
@@ -88,7 +87,6 @@ bullet: {
     keepVelocity: false
     shrinkY: 0.5
     drag: -0.003
-    hitShake: 7
     height: 8
     width: 8
 
