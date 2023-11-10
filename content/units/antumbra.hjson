@@ -41,10 +41,10 @@ name: missiles-mount
     reload: 140
     shootSound: missile
     shoot: {
-    shotDelay: 2
-    shots: 15
-    velocityRnd: 0,2
-  }
+       shotDelay: 2
+       shots: 15
+       velocityRnd: 0,2
+     }
 }
 
 bullet: {
@@ -80,7 +80,6 @@ name: missiles-mount
     shootSound: missile
     velocityRnd: 0,2
     shoot: {
-    type: "shootPattern"
     shotDelay: 2
     shots: 15
     velocityRnd: 0,2
