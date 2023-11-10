@@ -34,7 +34,7 @@ name: missiles-mount
     rotate: true
     rotateSpeed: 8
     x: 17
-    y: -8
+    y: 8
     shotDelay: 2
     shadow: 6
   inaccuracy: 10
