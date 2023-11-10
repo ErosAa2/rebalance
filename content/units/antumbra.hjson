@@ -100,8 +100,8 @@ bullet: {
     speed: 3
     despawnEffect: blastExplosion
     hitEffect: blastExplosion
-}
-}
+     }
+  }
 ]
 
 
