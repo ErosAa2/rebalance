@@ -42,11 +42,10 @@ name: missiles-mount
     shootSound: missile
     velocityRnd: 0,2
     shoot: {
-    type: "shootPattern"
     shotDelay: 2
     shots: 15
     velocityRnd: 0,2
-      }
+    }
 }
 
 bullet: {
