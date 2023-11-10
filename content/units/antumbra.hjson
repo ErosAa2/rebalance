@@ -72,7 +72,7 @@ name: missiles-mount
     y: -8
     shotDelay: 2
     shadow: 6
-  inaccuracy: 10
+    inaccuracy: 10
     reload: 140
     shootSound: missile
     velocityRnd: 0,2
