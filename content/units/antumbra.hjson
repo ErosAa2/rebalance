@@ -21,7 +21,7 @@ bullet: {
     height: 15
     width: 9
     lifetime: 25
-    damage: 70
+    damage: 60
     speed: 7
     shootEffect: shootBig
     lightColor: fff8e8
@@ -93,12 +93,12 @@ bullet: {
 
     splashDamageRadius: 25
     statusDuration: 60
-    splashDamage: 40
+    splashDamage: 30
     homingRange: 60
     homingDelay: 5
     status: blasted
     lifetime: 50
-    damage: 20
+    damage: 10
     speed: 3
     despawnEffect: blastExplosion
     hitEffect: blastExplosion
