@@ -36,10 +36,11 @@ name: missiles-mount
     x: 17
     y: 8
     shadow: 6
+  inaccuracy: 4
     reload: 135
     shootSound: missile
 shoot: {
-    velocityRnd: 0.2
+    velocityRnd: 1
     shots: 15
 }
 
@@ -51,15 +52,12 @@ bullet: {
     hitShake: 7
     height: 8
     width: 8
-
     splashDamageRadius: 25
     statusDuration: 60
     splashDamage: 40
     homingRange: 60
     status: blasted
-    weaveScale: 6
     lifetime: 50
-    weaveMag: 1
     damage: 20
     speed: 3
     despawnEffect: blastExplosion
@@ -73,10 +71,11 @@ name: missiles-mount
     x: 17
     y: -8
     shadow: 6
+  inaccuracy: 4
     reload: 140
     shootSound: missile
 shoot: {
-    velocityRnd: 0.2
+    velocityRnd: 1
     shots: 15
 }
 
@@ -94,9 +93,7 @@ bullet: {
     splashDamage: 40
     homingRange: 60
     status: blasted
-    weaveScale: 6
     lifetime: 50
-    weaveMag: 1
     damage: 20
     speed: 3
     despawnEffect: blastExplosion
