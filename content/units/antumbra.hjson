@@ -64,8 +64,7 @@ bullet: {
     speed: 3
     despawnEffect: blastExplosion
     hitEffect: blastExplosion
-}
-}
+  }
 {
 name: missiles-mount
     rotate: true
@@ -103,7 +102,6 @@ bullet: {
     speed: 3
     despawnEffect: blastExplosion
     hitEffect: blastExplosion
-}
 }
 ]
 
