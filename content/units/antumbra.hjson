@@ -80,7 +80,6 @@ name: missiles-mount
     shotDelay: 2
     shots: 15
     ]
-
 bullet: {
     type: MissileBulletType
     keepVelocity: false
