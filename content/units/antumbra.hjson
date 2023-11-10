@@ -55,12 +55,12 @@ bullet: {
     width: 8
     splashDamageRadius: 25
     statusDuration: 60
-    splashDamage: 40
+    splashDamage: 30
     homingRange: 60
     homingDelay: 5
     status: blasted
     lifetime: 50
-    damage: 20
+    damage: 10
     speed: 3
     despawnEffect: blastExplosion
     hitEffect: blastExplosion
