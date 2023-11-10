@@ -40,10 +40,10 @@ name: missiles-mount
   inaccuracy: 10
     reload: 140
     shootSound: missile
-    shoot: [
+    shoot: {
        shotDelay: 2
        shots: 15
-       ]
+       }
 
 bullet: {
     type: MissileBulletType
@@ -76,10 +76,10 @@ name: missiles-mount
     inaccuracy: 10
     reload: 140
     shootSound: missile
-   shoot: [
+   shoot: {
     shotDelay: 2
     shots: 15
-    ]
+    }
 
 bullet: {
     type: MissileBulletType
