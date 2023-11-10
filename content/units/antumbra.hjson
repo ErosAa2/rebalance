@@ -40,12 +40,11 @@ name: missiles-mount
   inaccuracy: 10
     reload: 140
     shootSound: missile
-    velocityRnd: 0,2
     shoot: {
     shotDelay: 2
     shots: 15
     velocityRnd: 0,2
-    }
+  }
 }
 
 bullet: {
