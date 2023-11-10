@@ -57,6 +57,7 @@ bullet: {
     statusDuration: 60
     splashDamage: 40
     homingRange: 60
+    homingDelay: 5
     status: blasted
     lifetime: 50
     damage: 20
@@ -94,6 +95,7 @@ bullet: {
     statusDuration: 60
     splashDamage: 40
     homingRange: 60
+    homingDelay: 5
     status: blasted
     lifetime: 50
     damage: 20
