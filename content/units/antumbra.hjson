@@ -74,8 +74,8 @@ name: missiles-mount
     otherSide: 1
     rotate: true
     rotateSpeed: 8
-    x: -17
-    y: 8
+    x: 17
+    y: -8
     shotDelay: 2
     shadow: 6
     inaccuracy: 15
