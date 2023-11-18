@@ -34,7 +34,7 @@ name: missiles-mount
 mirror: false
     targetInterval: 20
     targetSwitchInterval: 10
-otherSide: 0
+    otherSide: 1
     rotate: true
     rotateSpeed: 8
     x: 17
@@ -73,7 +73,7 @@ bullet: {
 {
 name: missiles-mount
     mirror: false
-    otherSide: 1
+    otherSide: 2
     targetInterval: 20
     targetSwitchInterval: 10
     rotate: true
@@ -116,7 +116,7 @@ bullet: {
 name: missiles-mount
     rotate: true
     mirror: false
-    otherSide: 2
+    otherSide: 3
     rotateSpeed: 8
     targetInterval: 20
     targetSwitchInterval: 10
@@ -157,7 +157,7 @@ bullet: {
 name: missiles-mount
     rotate: true
     mirror: false
-    otherSide: 3
+    otherSide: 0
     targetInterval: 20
     targetSwitchInterval: 10
     rotateSpeed: 8
