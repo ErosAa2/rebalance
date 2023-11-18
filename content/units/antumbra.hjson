@@ -70,6 +70,7 @@ bullet: {
 {
 name: missiles-mount
     mirror: false
+    flipSprite: true
     otherSide: 2
     rotate: true
     rotateSpeed: 8
@@ -110,6 +111,7 @@ bullet: {
 name: missiles-mount
     rotate: true
     mirror: false
+    flipSprite: true
     otherSide: 3
     rotateSpeed: 8
     x: -17
@@ -149,6 +151,7 @@ name: missiles-mount
     rotate: true
     mirror: false
     otherSide: 0
+    flipSprite: true
     rotateSpeed: 8
     x: -17
     y: -8
