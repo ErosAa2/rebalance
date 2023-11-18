@@ -7,7 +7,7 @@ weapons : [
 name: large-bullet-mount
     rotateSpeed: 2
     rotate: true
-    alternate: false
+    alternate: true
     mirror: true
     shootY: 10
     shake: 1
@@ -34,7 +34,6 @@ bullet: {
 {
 name: missiles-mount
 mirror: false
-flipSprite: false
     otherSide: 1
     rotate: true
     rotateSpeed: 8
