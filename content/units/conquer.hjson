@@ -58,7 +58,7 @@ weapons: [
           cone: 0
           interp: pow3In
           sizeInterp: linear
-          region: allure-diamond-wide
+          region: rebalance-diamond-wide
           sizeFrom: 40
           sizeTo: 20
           colorFrom: feb380
@@ -75,7 +75,7 @@ weapons: [
           cone: 0
           interp: pow3In
           sizeInterp: linear
-          region: allure-diamond-wide
+          region: rebalance-diamond-wide
           sizeFrom: 28
           sizeTo: 14
           colorTo: ffffff00
@@ -135,7 +135,7 @@ weapons: [
           offset: 90
           colorFrom: feb380
           colorTo: feb380
-          region: allure-diamond-vthin
+          region: rebalance-diamond-vthin
         }
       ]
       shootEffect: instShoot
