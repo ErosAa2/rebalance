@@ -42,7 +42,7 @@ weapons: [
           cone: 0
           interp: pow3In
           sizeInterp: linear
-          region: allure-railblast
+          region: rebalance-railblast
           sizeFrom: 24
           sizeTo: 12
           colorFrom: feb380
