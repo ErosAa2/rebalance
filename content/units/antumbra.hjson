@@ -7,6 +7,8 @@ weapons : [
 name: large-bullet-mount
     rotateSpeed: 2
     rotate: true
+    alternate: false
+    mirror: true
     shootY: 10
     shake: 1
     x: 10
