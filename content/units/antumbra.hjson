@@ -40,6 +40,7 @@ mirror: false
     x: 17
     y: 8
     shadow: 6
+  shootY: 6
   inaccuracy: 15
     reload: 53
     shootSound: missile
@@ -77,6 +78,7 @@ name: missiles-mount
     rotateSpeed: 8
     x: 17
     y: -8
+    shootY: 6
     shadow: 6
     inaccuracy: 15
     reload: 53
@@ -117,6 +119,7 @@ name: missiles-mount
     x: -17
     y: 8
     shadow: 6
+    shootY: 6
   inaccuracy: 15
     reload: 53
     shootSound: missile
@@ -155,6 +158,7 @@ name: missiles-mount
     x: -17
     y: -8
     shadow: 6
+    shootY: 6
   inaccuracy: 15
     reload: 53
     shootSound: missile
