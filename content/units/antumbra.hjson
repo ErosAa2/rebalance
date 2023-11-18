@@ -31,6 +31,8 @@ bullet: {
 }
 {
 name: missiles-mount
+mirror: false
+otherSide: 0
     rotate: true
     rotateSpeed: 8
     x: 17
@@ -38,7 +40,86 @@ name: missiles-mount
     shotDelay: 2
     shadow: 6
   inaccuracy: 15
-    reload: 190
+    reload: 53
+    shootSound: missile
+    shoot: {
+       shotDelay: 2
+       shots: 15
+       velocityRnd: 0.2
+       }
+
+bullet: {
+    type: MissileBulletType
+    keepVelocity: false
+    shrinkY: 0.5
+    drag: -0.003
+    height: 8
+    width: 8
+    splashDamageRadius: 20
+    statusDuration: 60
+    splashDamage: 35
+    homingRange: 60
+    homingDelay: 5
+    status: blasted
+    lifetime: 50
+    damage: 12
+    speed: 3
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+}
+}
+{
+name: missiles-mount
+    mirror: false
+    otherSide: 1
+    rotate: true
+    rotateSpeed: 8
+    x: -17
+    y: 8
+    shotDelay: 2
+    shadow: 6
+    inaccuracy: 15
+    reload: 53
+    shootSound: missile
+   shoot: {
+    shotDelay: 2
+    shots: 15
+    velocityRnd: 0.2
+    }
+
+bullet: {
+    type: MissileBulletType
+    keepVelocity: false
+    shrinkY: 0.5
+    drag: -0.003
+    height: 8
+    width: 8
+
+    splashDamageRadius: 25
+    statusDuration: 60
+    splashDamage: 35
+    homingRange: 60
+    homingDelay: 5
+    status: blasted
+    lifetime: 50
+    damage: 12
+    speed: 3
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+     }
+  }
+{
+name: missiles-mount
+    rotate: true
+    mirror: false
+    otherSide: 2
+    rotateSpeed: 8
+    x: -17
+    y: 8
+    shotDelay: 2
+    shadow: 6
+  inaccuracy: 15
+    reload: 53
     shootSound: missile
     shoot: {
        shotDelay: 2
@@ -69,19 +150,21 @@ bullet: {
 {
 name: missiles-mount
     rotate: true
+    mirror: false
+    otherSide: 3
     rotateSpeed: 8
-    x: 17
+    x: -17
     y: -8
     shotDelay: 2
     shadow: 6
-    inaccuracy: 15
-    reload: 215
+  inaccuracy: 15
+    reload: 53
     shootSound: missile
-   shoot: {
-    shotDelay: 2
-    shots: 15
-    velocityRnd: 0.2
-    }
+    shoot: {
+       shotDelay: 2
+       shots: 15
+       velocityRnd: 0.2
+       }
 
 bullet: {
     type: MissileBulletType
@@ -90,8 +173,7 @@ bullet: {
     drag: -0.003
     height: 8
     width: 8
-
-    splashDamageRadius: 25
+    splashDamageRadius: 20
     statusDuration: 60
     splashDamage: 35
     homingRange: 60
@@ -102,8 +184,8 @@ bullet: {
     speed: 3
     despawnEffect: blastExplosion
     hitEffect: blastExplosion
-     }
-  }
+}
+}
 ]
 
 
