@@ -4,34 +4,6 @@ armor: 10
 
 weapons : [
 {
-name: large-bullet-mount
-    rotateSpeed: 2
-    rotate: true
-    alternate: true
-    mirror: true
-    shootY: 10
-    shake: 1
-    x: 10
-    y: -3.25
-    shadow: 8
-    reload: 12   
-    ejectEffect: casing1
-    shootSound: shootBig
-    
-bullet: {
-    type: BasicBulletType
-    height: 15
-    width: 9
-    lifetime: 25
-    damage: 65
-    speed: 7
-    shootEffect: shootBig
-    lightColor: fff8e8
-	lightOpacity: 0.7
-	lightRadius: 37.5
- }
-}
-{
 name: missiles-mount
 mirror: false
     otherSide: 1
@@ -186,6 +158,34 @@ bullet: {
     despawnEffect: blastExplosion
     hitEffect: blastExplosion
 }
+}
+{
+name: large-bullet-mount
+    rotateSpeed: 2
+    rotate: true
+    alternate: true
+    mirror: true
+    shootY: 10
+    shake: 1
+    x: 10
+    y: -3.25
+    shadow: 8
+    reload: 12   
+    ejectEffect: casing1
+    shootSound: shootBig
+    
+bullet: {
+    type: BasicBulletType
+    height: 15
+    width: 9
+    lifetime: 25
+    damage: 65
+    speed: 7
+    shootEffect: shootBig
+    lightColor: fff8e8
+	lightOpacity: 0.7
+	lightRadius: 37.5
+ }
 }
 ]
 
