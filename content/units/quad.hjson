@@ -18,12 +18,12 @@ collidesAir: false
 shootCone: 180
 hitShake: 4
 ignoreRotation: true
-backColor: Pal.heal
-frontColor: Color.white
-mixColorTo: Color.white
+backColor: heal
+frontColor: white
+mixColorTo: white
 shrinkX: 0.7
 shrinkY: 0.7
-ejectEffect: Fx.none
+ejectEffect: none
 lifetime: 70
 splashDamage: 170
 splashDamageRadius: 80
@@ -32,9 +32,9 @@ spin: 2
 speed: 0
 collides: false
 healAmount: 700
-hitSound: Sounds.plasmaboom
-despawnEffect: Fx.greenBomb                  
-hitEffect: Fx.massiveExplosion
+hitSound: plasmaboom
+despawnEffect: greenBomb                  
+hitEffect: massiveExplosion
 shootStatus: bombing
 alwaysShootWhenMoving: true
 }
