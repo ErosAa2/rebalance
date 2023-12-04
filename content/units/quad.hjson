@@ -5,7 +5,7 @@ weapons: [
 name: bay
 x: 0
 y: 0
-reload: 60
+reload: 29
 shootSound: sounds.plasmadrop
 soundPitchMin: 1
 minShootVelocity: 0.1
