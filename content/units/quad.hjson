@@ -14,7 +14,8 @@ type: basicBulletType
 sprite: rebalance-large-bomb
 width: 120
 height: 4
-color: heal
+frontColor: heal
+backColor: white
 collidesAir: false
 shootCone: 180
 hitShake: 4
