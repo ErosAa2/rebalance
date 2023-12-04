@@ -11,7 +11,7 @@ soundPitchMin: 1
 minShootVelocity: 0.1
 bullet: {
 type: basicBulletType
-sprite: large-bomb
+sprite: rebalance-large-bomb
 width: 120
 height: 4
 collidesAir: false
