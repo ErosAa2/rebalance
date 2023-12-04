@@ -19,7 +19,6 @@ frontColor: Pal.heal
 backColor: Pal.white
 collidesAir: false
 hitShake: 4
-ignoreRotation: true
 shrinkX: 0.7
 shrinkY: 0.7
 ejectEffect: none
@@ -35,6 +34,7 @@ hitSound: plasmaboom
 despawnEffect: greenBomb                  
 hitEffect: massiveExplosion
 shootStatus: bombing
+shootStatusDuration: 120
 }
 }
 ]
