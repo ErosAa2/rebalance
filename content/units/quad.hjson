@@ -21,8 +21,8 @@ ignoreRotation: true
 backColor: Pal.heal
 frontColor: Color.white
 mixColorTo: Color.white
-shrinkX: 0,7
-shrinkY: 0,7
+shrinkX: 0.7
+shrinkY: 0.7
 ejectEffect: Fx.none
 lifetime: 70
 splashDamage: 170
