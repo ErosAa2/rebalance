@@ -9,6 +9,8 @@ reload: 29
 shootSound: plasmadrop
 soundPitchMin: 1
 minShootVelocity: 0.1
+alternate: false
+ignoreRotation: true
 
 bullet: {
 type: basicBulletType
