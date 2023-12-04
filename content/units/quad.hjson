@@ -1,1 +1,42 @@
 speed: 1.6
+
+weapons: [
+{
+name: 
+x: 0
+y: 0
+reload: 55
+shootSound: sounds.plasmadrop
+soundPitchMin: 1
+minShootVelocity: 0.1
+bullet: {
+type: basicBulletType
+sprite: large-bomb
+width: 120
+height: 4
+collidesAir: false
+shootCone: 180
+hitShake: 4
+ignoreRotation: true
+backColor: Pal.heal
+frontColor: Color.white
+mixColorTo: Color.white
+shrinkX: 0,7
+shrinkY: 0,7
+ejectEffect: Fx.none
+lifetime: 70
+splashDamage: 170
+splashDamageRadius: 80
+keepVelocity: false
+spin: 2
+speed: 0
+collides: false
+healAmount: 700
+hitSound: Sounds.plasmaboom
+despawnEffect: Fx.greenBomb                  
+hitEffect: Fx.massiveExplosion
+shootStatus: bombing
+alwaysShootWhenMoving: true
+}
+}
+]
