@@ -9,6 +9,7 @@ reload: 29
 shootSound: plasmadrop
 soundPitchMin: 1
 minShootVelocity: 0.1
+
 bullet: {
 type: basicBulletType
 sprite: rebalance-large-bomb
@@ -17,7 +18,6 @@ height: 4
 frontColor: Pal.heal
 backColor: Pal.white
 collidesAir: false
-shootCone: 180
 hitShake: 4
 ignoreRotation: true
 shrinkX: 0.7
