@@ -18,9 +18,6 @@ collidesAir: false
 shootCone: 180
 hitShake: 4
 ignoreRotation: true
-backColor: heal
-frontColor: white
-mixColorTo: white
 shrinkX: 0.7
 shrinkY: 0.7
 ejectEffect: none
