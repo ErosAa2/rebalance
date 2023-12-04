@@ -6,7 +6,7 @@ name: bay
 x: 0
 y: 0
 reload: 29
-shootSound: sounds.plasmadrop
+shootSound: plasmadrop
 soundPitchMin: 1
 minShootVelocity: 0.1
 bullet: {
@@ -35,7 +35,6 @@ hitSound: plasmaboom
 despawnEffect: greenBomb                  
 hitEffect: massiveExplosion
 shootStatus: bombing
-alwaysShootWhenMoving: true
 }
 }
 ]
