@@ -1,1 +1,8 @@
 speed: 0.47
+abilities: [
+{
+type: ArmorPlateAbility
+healthMultiplier: 2
+color: ffdd55
+}
+]
