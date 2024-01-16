@@ -1,5 +1,6 @@
 health: 9500
 crushDamage: 5
+drownTimeMultiplier: 15
 weapons: [
   {
     name: vanquish-point-weapon
