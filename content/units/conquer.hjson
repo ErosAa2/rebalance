@@ -1,4 +1,8 @@
 fogRadius: 33
+immunities: [
+burning
+melting
+]
 weapons: [
   {
     name: conquer-weapon
