@@ -1,5 +1,5 @@
 fogRadius: 33
-drownTimeMultiplier: 15
+canDrown: false
 immunities: [
 burning
 melting
