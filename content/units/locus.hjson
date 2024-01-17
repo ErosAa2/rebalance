@@ -1,0 +1,5 @@
+drownTimeMultiplier: 5
+immunities: [
+burning
+melting
+]
